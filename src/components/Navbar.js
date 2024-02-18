@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import styles from './Navbar.module.css';
+import styles from './styles/Navbar.module.css';
 
 import logo from '../images/Escrita.png';
 import Container from './Container';

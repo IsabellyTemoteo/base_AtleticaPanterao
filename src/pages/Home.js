@@ -1,9 +1,13 @@
+import styles from './pages_styles/Home.module.css'
+import logo from '../images/Logo-atletica.png';
 
 function Home() {
     return (
-      <div className="Home">
-        <h1>Home</h1>
-      </div>
+      <section>
+        <h1>Bem vindo à Atlética Panterão</h1>
+        <p>Faça esportes!</p>
+        <img src={logo} alt="Pantera"></img>
+      </section>
     );
   }
   

@@ -1,5 +1,5 @@
 import { FaInstagram, FaWhatsapp, FaTwitch, FaYoutube } from "react-icons/fa6";
-import styles from './Footer.module.css';
+import styles from './styles/Footer.module.css';
 import Divider from './Divider';
 import logo from '../images/Logo-atletica.png';
 
