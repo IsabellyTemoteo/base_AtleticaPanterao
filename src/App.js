@@ -9,6 +9,9 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Contato from './pages/Contato';
 import Eventos from './pages/Eventos';
+import Esportivo from './pages/Esportivo';
+import Parcerias from './pages/Parcerias';
+import Lojinha from './pages/Lojinha';
 
 // Auxilio nas divs
 import Container from './components/Container'
@@ -27,6 +30,9 @@ function App() {
               <Route path="/" element={<Home/>}/>
               <Route path="/Contato" element={<Contato/>}/>
               <Route path="/Eventos" element={<Eventos/>}/>
+              <Route path="/Parcerias" element={<Parcerias/>}/>
+              <Route path="/Lojinha" element={<Lojinha/>}/>
+              <Route path="/Esportivo" element={<Esportivo/>}/>
           </Routes>
         </Container>
 
