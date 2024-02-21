@@ -1,6 +1,8 @@
 import logo from '../images/Background.png';
 import styles from './pages_styles/Gestao2023_2.module.css';
 import Divider from '../components/Divider';
+import DivRedonda from '../components/DivRedonda';
+import FotoPrincipal from '../components/DivRedondaArthur';
 
 function Gestao2023_2() {
     return (
@@ -22,23 +24,22 @@ function Gestao2023_2() {
                     {"atividades esportivas e culturais, fomentando a integração,\n"}
                     {"a participação ativa e a excelência em todas as nossas iniciativas."}
                 </pre>
+                
             </div>
 
         {/* Imagem Arthur Ribeiro */}
 
             <div className={styles.boxPrincipal}>
-                <a href="https://imgbox.com/VOIgCQVs" target="_blank"><img src="https://thumbs2.imgbox.com/4a/08/VOIgCQVs_t.png" className={styles.boxDiretoria} alt="Italo Aurélio"/></a>
-                <pre className={styles.textoDiretoria}>
-                    {"Arthur Ribeiro de Oliveira\n"}
-                    {"Fundador da A.A.A.E.E CEFET -Leopoldina\n\n"}
-                    {"A Atlética Panterão agradece em especial ao nosso fundador, Arthur Ribeiro,\n"}
-                    {"pelo trabalho prestado e proporcionado"}
-                </pre>
+
+                <FotoPrincipal imageLink="https://thumbs2.imgbox.com/4a/08/VOIgCQVs_t.png" h1Text="Arthur Ribeiro de Oliveira" h3Text="Fundador da A.A.A.E.E CEFET -Leopoldina" />
+
             </div>
 
         {/* Imagens da Diretoria */}
 
             <div className={styles.baseDiretoria}>
+
+                { /*
                 <div className={styles.linhaDiretoria}>
                     <a href="https://imgbox.com/VOIgCQVs" target="_blank"><img src="https://thumbs2.imgbox.com/4a/08/VOIgCQVs_t.png" className={styles.boxDiretoria} alt="Italo Aurélio"/></a>
                     <text className={styles.textoDiretoria}>
@@ -47,22 +48,39 @@ function Gestao2023_2() {
                     Presidente da A.A.A.E.E CEFET -Leopoldina
                     </text>
                 </div>
+
+                */ }
+
                 <div className={styles.linhaDiretoria}>
-                    <a href="https://imgbox.com/VOIgCQVs" target="_blank"><img src="https://thumbs2.imgbox.com/4a/08/VOIgCQVs_t.png" className={styles.boxDiretoria} alt="Italo Aurélio"/></a>
-                    <text className={styles.textoDiretoria}>
-                    Humberto Motta da Cunha
-                    <br/>
-                    Presidente da A.A.A.E.E CEFET -Leopoldina
-                    </text>
+                    <DivRedonda imageLink="https://thumbs2.imgbox.com/4a/08/VOIgCQVs_t.png" h1Text="Ítalo Aurélio" h3Text="X° Diretor de Relações"iconLink="https://www.instagram.com/atleticaleopoldina/" />
                 </div>
+
                 <div className={styles.linhaDiretoria}>
-                    <a href="https://imgbox.com/VOIgCQVs" target="_blank"><img src="https://thumbs2.imgbox.com/4a/08/VOIgCQVs_t.png" className={styles.boxDiretoria} alt="Italo Aurélio"/></a>
-                    <text className={styles.textoDiretoria}>
-                    Humberto Motta da Cunha
-                    <br/>
-                    Presidente da A.A.A.E.E CEFET -Leopoldina
-                    </text>
+                   <DivRedonda />
                 </div>
+
+                <div className={styles.linhaDiretoria}>
+                   <DivRedonda />
+                </div>
+
+
+            </div>
+
+            <div className={styles.baseDiretoria}>
+
+
+            <div className={styles.linhaDiretoria}>
+                   <DivRedonda />
+                </div>
+
+                <div className={styles.linhaDiretoria}>
+                   <DivRedonda />
+                </div>
+
+                <div className={styles.linhaDiretoria}>
+                   <DivRedonda />
+                </div>
+
             </div>
 
             <div className={styles.endPage}></div>
