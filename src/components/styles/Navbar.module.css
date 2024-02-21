@@ -74,7 +74,7 @@
 }
 
 .item:hover .dropdown_menu {
-    display: block; /* Mostrar o menu suspenso quando o item for hover */
+    display: block; 
 }
 
 
@@ -90,7 +90,6 @@
     color: white;
 }
 
-/* Corrigindo o hover nos itens do menu suspenso */
 .dropdown_item:hover {
     color: blue;
 }
