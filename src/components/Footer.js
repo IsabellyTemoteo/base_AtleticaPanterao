@@ -2,13 +2,14 @@ import {FaInstagram, FaWhatsapp, FaTwitch, FaYoutube} from "react-icons/fa6";
 import styles from './styles/Footer.module.css';
 import Divider from './Divider';
 import logo from '../images/Logo-atletica.png';
+import logoCEFET from '../images/DEDC_CEFET.png';
 
 function Footer() {
     return (
         <footer className={styles.footer}>
 
             {/* Rodapé */}
-            
+
             <p className={styles.copy_right}>
                 <span>Copyright</span>
                 &copy; 2023
@@ -16,15 +17,22 @@ function Footer() {
             </p>
 
             <div>
-                <div className={styles.text}>
-                    <br/>
-                    <p className={styles.paragrafo}>A.A.A.E.E. CEFET Leopoldina - CNPJ:0932039203-23 - R. José Péres, 558</p>
-                    <p>
-                        Centro - Prédio 3 - CEP: 36700-000 - Leopoldina - MG</p>
-                </div>
-
-                <div className={styles.textRight}>
-                    <p>Formas de pagamento aceitas: Pix, Cartão de crédito, Cheers e Picpay.</p>
+                <div className={styles.textoRow}>
+                    <div className={styles.text}>
+                        <br/>
+                        <p className={styles.paragrafo}>
+                            A.A.A.E.E. CEFET Leopoldina - CNPJ:0932039203-23 - R. José Péres, 558
+                            <br/>
+                            Centro - Prédio 3 - CEP: 36700-000 - Leopoldina - MG
+                        </p>
+                    </div>
+                        <div className={styles.textRight}>
+                            <br/>
+                            <br/>
+                            <p className={styles.paragrafo}>
+                                Formas de pagamento aceitas: Pix, Cartão de crédito, Cheers e Picpay.
+                            </p>
+                        </div>
                 </div>
             </div>
 
@@ -32,8 +40,7 @@ function Footer() {
             <br/>
 
             <img src={logo} alt="Logo Panterão" className={styles.logo}/>
-
-            {/* Links para as redes sociais da atlética */}
+            <img src={logoCEFET} alt="Logo CEFET-MG e DEDC" className={styles.logoCEFET}/> {/* Links para as redes sociais da atlética */}
 
             <ul className={styles.social_list}>
 

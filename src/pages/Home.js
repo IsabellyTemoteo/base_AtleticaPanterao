@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from './pages_styles/Home.module.css';
 import logo from '../images/Background.png';
+import escrita from '../images/Escrita.png';
 
 function Home() {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -23,7 +24,8 @@ function Home() {
         <h1>Destaques</h1>
       </div>
 
-      <h1>continue</h1>
+      <img src={escrita} alt="Pantera" className={styles.bg} />
+
     </section>
   );
 }
