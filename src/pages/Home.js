@@ -7,6 +7,13 @@ function Home() {
     return (
         <section className={styles.content}>
           <img src={logo} alt="Pantera" className={styles.bg}></img>
+
+          <div className ={styles.tittleDestaques}>
+            <h1>Destaques</h1>
+          </div>
+
+          <h1>continue</h1>
+        
         </section>
     );
   }
