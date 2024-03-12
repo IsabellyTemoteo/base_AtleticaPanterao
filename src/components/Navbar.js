@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import styles from './styles/Navbar.module.css';
 import logo from '../images/Escrita.png';
-import Container from './Container';
 
 function Navbar() {
     
@@ -66,7 +65,7 @@ function Navbar() {
                 </li>
 
                 <li className={styles.item}>
-                    <Link to="/CampusAberto">Campus Aberto</Link>
+                    <Link styles to="/CampusAberto">Campus Aberto</Link>
                 </li>
 
                 <li className={styles.item}>

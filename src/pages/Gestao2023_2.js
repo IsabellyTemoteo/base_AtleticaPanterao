@@ -10,7 +10,7 @@ function Gestao2023_2() {
         // Background Inicial da Página
         <section className={styles.content}>
             <div className={styles.overlay}>
-                <h1 className={styles.title}>Gestão 2023.2</h1>
+                <h1 className={styles.title}>GESTÃO 2023.2</h1>
                 <img src={logo} alt="Pantera" className={styles.bg}/>
             </div>
             <div className={styles.baseInformacoes}>

@@ -9,8 +9,6 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Contato from './pages/Contato';
 import Eventos from './pages/Eventos';
-import Esportivo from './pages/Esportivo';
-import Parcerias from './pages/Parcerias';
 import Lojinha from './pages/Lojinha';
 import Gestao2023_2 from './pages/Gestao2023_2';
 import Documentos from './pages/Documentos';
@@ -41,7 +39,6 @@ function App() {
               <Route path="/Documentos" element={<Documentos/>}/>
               <Route path="/Galeria" element={<Galeria/>}/>
 
-              <Route path="/Esportivo" element={<Esportivo/>}/>
               <Route path="/Competicoes" element={<Competicoes/>}/>
               <Route path="/Modalidades" element={<Modalidades/>}/>
 
@@ -49,7 +46,6 @@ function App() {
 
               <Route path="/Lojinha" element={<Lojinha/>}/>
 
-              <Route path="/Parcerias" element={<Parcerias/>}/>
               <Route path="/SejaUmParceiro" element={<SejaUmParceiro/>}/>
               <Route path="/NossosParceiros" element={<NossosParceiros/>}/>
 

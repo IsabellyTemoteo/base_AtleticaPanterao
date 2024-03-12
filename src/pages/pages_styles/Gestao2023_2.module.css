@@ -8,7 +8,7 @@
 
 .content {
     position: relative;
-    background-color: var(--cabecalho-color);
+    background-color: #090E17;
 }
 
 .overlay {
@@ -19,7 +19,7 @@
     width: 100%;
     height: auto;
     display: block;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 .title {
