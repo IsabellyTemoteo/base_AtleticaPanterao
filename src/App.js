@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import appStyle from './app.css';
 
 // Barra de Navegação e Rodapé
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/base/Navbar';
+import Footer from './components/base/Footer';
 
 // Páginas Importadas
 import Home from './pages/Home';
@@ -20,7 +20,7 @@ import NossosParceiros from './pages/NossosParceiros';
 import SejaUmParceiro from './pages/SejaUmParceiro';
 
 // Auxilio nas divs
-import Container from './components/Container'
+import Container from './components/base/Container'
 
 // Definindo rotas para o site
 

@@ -1,8 +1,8 @@
 import {FaInstagram, FaWhatsapp, FaTwitch, FaYoutube} from "react-icons/fa6";
-import styles from './styles/Footer.module.css';
-import Divider from './Divider';
-import logo from '../images/Logo-atletica.png';
-import logoCEFET from '../images/DEDC_CEFET.png';
+import styles from '../styles/Footer.module.css';
+import Divider from '../structures/Divider';
+import logo from '../../images/Logo-atletica.png';
+import logoCEFET from '../../images/DEDC_CEFET.png';
 
 function Footer() {
     return (

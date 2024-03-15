@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from './pages_styles/Home.module.css';
 import logo from '../images/Background.png';
 import escrita from '../images/Escrita.png';
-import AnimatedTyping from '../components/AnimatedTyping';
+import AnimatedTyping from '../components/animation/AnimatedTyping';
 
 function Home() {
 

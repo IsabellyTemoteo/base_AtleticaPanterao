@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/DivRedondaArthur.css';
+import '../styles/DivRedondaArthur.css';
 import Divider from './Divider'
 
 function DivRedondaArthur() {

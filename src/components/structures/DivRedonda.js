@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/DivRedonda.css';
+import '../styles/DivRedonda.css';
 import Divider from './Divider';
 import { FaInstagram } from "react-icons/fa6";
 

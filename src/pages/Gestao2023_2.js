@@ -1,8 +1,8 @@
 import logo from '../images/Background.png';
 import styles from './pages_styles/Gestao2023_2.module.css';
-import Divider from '../components/Divider';
-import DivRedonda from '../components/DivRedonda';
-import FotoPrincipal from '../components/DivRedondaArthur';
+import Divider from '../components/structures/Divider';
+import DivRedonda from '../components/structures/DivRedonda';
+import FotoPrincipal from '../components/structures/DivRedondaArthur';
 
 function Gestao2023_2() {
     return (

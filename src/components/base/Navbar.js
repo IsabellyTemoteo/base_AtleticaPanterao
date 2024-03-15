@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
-import styles from './styles/Navbar.module.css';
-import logo from '../images/Escrita.png';
+import styles from '../styles/Navbar.module.css';
+import logo from '../../images/Escrita.png';
 
 function Navbar() {
     
