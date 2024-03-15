@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/DivRedondaArthur.css';
 import Divider from './Divider'
-import { FaInstagram } from "react-icons/fa6";
 
 function DivRedondaArthur() {
     return (
