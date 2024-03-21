@@ -69,6 +69,21 @@ function Navbar() {
                 </li>
 
                 <li className={styles.item}>
+                    <div className={styles.dropdown_toggle} onMouseEnter={handleEsportivoToggle}>
+                        Esportivo
+                    </div>
+                    <ul className={styles.dropdown_menu}>
+                        {isEsportivoOpen && (
+                            <>
+                                <li><Link to="/Modalidades">Modalidades</Link></li>
+                                <li><hr className={styles.dropdown_divider} /></li>
+                                <li><Link to="/Competicoes">Competições</Link></li>
+                            </>
+                        )}
+                    </ul>
+                </li>
+
+                <li className={styles.item}>
                     <Link to="/Eventos">Eventos</Link>
                 </li>
                 <li className={styles.item}>
@@ -84,21 +99,6 @@ function Navbar() {
                                 <li><Link to="/SejaUmParceiro">Seja um parceiro</Link></li>
                                 <li><hr className={styles.dropdown_divider} /></li>
                                 <li><Link to="/NossosParceiros">Nossos parceiros</Link></li>
-                            </>
-                        )}
-                    </ul>
-                </li>
-
-                <li className={styles.item}>
-                    <div className={styles.dropdown_toggle} onMouseEnter={handleEsportivoToggle}>
-                        Esportivo
-                    </div>
-                    <ul className={styles.dropdown_menu}>
-                        {isEsportivoOpen && (
-                            <>
-                                <li><Link to="/Modalidades">Modalidades</Link></li>
-                                <li><hr className={styles.dropdown_divider} /></li>
-                                <li><Link to="/Competicoes">Competições</Link></li>
                             </>
                         )}
                     </ul>

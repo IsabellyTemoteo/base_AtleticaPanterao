@@ -1,0 +1,104 @@
+:root {
+    --cabecalho-color: #090E17;
+    --select-color: #2D7EA3;
+    --background-color: #1E222D;
+    --text-rodape-color: #D9D9D9;
+    --text-page-color: #D9D9D9;
+}
+
+.content {
+    position: relative;
+    background-color: #090E17;
+}
+
+.overlay {
+    position: relative;
+}
+/*Tentar deixar a imagem mais escura e nao mais clara*/
+.bg {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* opacity: 1; */
+    filter: brightness(40%);
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #DAE7FE;
+    font-size: 32px;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.3em;
+}
+.NossosEventos{
+    position: relative;
+    margin-left: 5rem;
+    margin-top: 8rem;
+}
+.NossosEventos hr{
+    margin-top: 5px;
+    height: 2px;
+    width: 350px;
+    background-color: #090E17;
+}
+.NossosEventos pre{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/*Divisao da tela*/
+.DivisaoTela{
+    display: flex;
+    flex-direction: row;
+}
+.TelaEsquerda{
+    width: 50%;
+}
+.TelaDireita{
+    width: 50%;
+}
+
+/*Configuração dos textos*/
+.TextoEvento{
+    margin: 5rem;
+}
+.TextoEvento h1{
+    color: #2D7EA3;
+    font-size: 24px;
+}
+.TextoEvento hr{
+    background-color: #2D7EA3;
+    margin-top: 5px;
+    height: 2px;
+    width: 350px;
+    margin-bottom: 5px;
+}
+.TextoEvento h2{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/*Definição global para todas as fotos que serão utilizadas na página*/
+.ImgFestas{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 370px;
+    width: 100%;
+}
+.ImgFestas img{
+    border-radius: 10px;
+}
