@@ -75,7 +75,17 @@ function Modalidades() {
         </div>
 
         {/*Alocação das fotos dos jogos*/}
-        
+        <div className={styles.DivisaoFotos}>
+          <div className={styles.ColunaEsquerda}>
+              <img className={styles.ImgCampeonato} src="https://i.ibb.co/T0c0Pck/IMG-20231122-150512-1.png" alt="ImgCampeonato"></img>
+          </div>
+          <div className={styles.ColunaCentro}>
+              <img className={styles.ImgCampeonato} src="https://i.ibb.co/hCpdJFK/IMG-20231122-153016-1.png" alt="ImgCampeonato"></img>
+          </div>
+          <div className={styles.ColunaDireita}>
+              <img className={styles.ImgCampeonato} src="https://i.ibb.co/9ckx9DB/IMG-20231122-150747-1.png" alt="ImgCampeonato"></img>
+          </div>                    
+        </div>
       </section>
     );
   }

@@ -123,5 +123,38 @@
     color: #D9D9D9;
 }
 
+/*Img Campeonatos*/
+.DivisaoFotos{
+    display: flex;
+    justify-content: center;
+}
+.ColunaEsquerda{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+
+}
+.ColunaCentro{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.ColunaDireita{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.ImgCampeonato{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*Utilizar "rem" ou "em" */
+
+/*grid para dividir tela*/
+
 
 

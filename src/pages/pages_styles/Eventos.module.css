@@ -41,8 +41,8 @@
 }
 .NossosEventos{
     position: relative;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 5rem;
+    margin-top: 8rem;
 }
 .NossosEventos hr{
     margin-top: 5px;
@@ -54,9 +54,14 @@
     font-size: 20px;
     margin-top: 30px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 /*Divisao da tela*/
+.DivisaoTela{
+    display: flex;
+    flex-direction: row;
+}
 .TelaEsquerda{
     width: 50%;
 }
@@ -66,7 +71,7 @@
 
 /*Configuração dos textos*/
 .TextoEvento{
-    margin: 100px;
+    margin: 5rem;
 }
 .TextoEvento h1{
     color: #2D7EA3;
@@ -83,4 +88,17 @@
     font-size: 20px;
     margin-top: 20px;
     line-height: 1.7;
+    text-align: justify;
+}
+
+/*Definição global para todas as fotos que serão utilizadas na página*/
+.ImgFestas{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 370px;
+    width: 100%;
+}
+.ImgFestas img{
+    border-radius: 10px;
 }
