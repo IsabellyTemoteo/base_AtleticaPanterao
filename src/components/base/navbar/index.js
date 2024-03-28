@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
-import { FiLogOut } from 'react-icons/fi';
 import logo from '../../../images/Escrita.png';
 import './styles.css';
 
