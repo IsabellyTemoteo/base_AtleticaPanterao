@@ -1,9 +1,11 @@
 import styles from './pages_styles/Eventos.module.css';
 import BannerEventos from '../images/BannerEventos.png';
+
+
 function Eventos() {
     return (
       //Background Inical da Página
-      <section className={styles.Content}>
+      <section className={styles.Body}>
         <div className={styles.overlay}>
           <h1 className={styles.title}>EVENTOS</h1>
           <img src={BannerEventos} alt="Banner" className={styles.bg}/>
@@ -27,7 +29,7 @@ function Eventos() {
         </div>
 
         {/*Divisão da tela ao meio por div*/}
-        <div className={styles.DivisaoTela}>
+        <div className={styles.DivisaoTela1}>
           
           {/*Elemenos à esquerda da tela*/}
           <div className={styles.TelaEsquerda}>
@@ -50,7 +52,7 @@ function Eventos() {
         </div>
 
         {/*Segunda divisão de tela ao meio por div*/}
-        <div className={styles.DivisaoTela}>
+        <div className={styles.DivisaoTela2}>
 
           {/*Elementos à esquerda da tela*/}
           <div className={styles.TelaEsquerda}>
@@ -71,7 +73,29 @@ function Eventos() {
             </div>
           </div>
         </div>
-        
+
+        {/*Terceira divisão de tela*/}
+        <div className={styles.DivisaoTela3}>
+
+          {/*Elementos à esquerda da tela*/}
+          <div className={styles.TelaEsquerda}>
+            <div className={styles.TextoEvento}>
+              <h1>ADEUS CALOUROS</h1>
+              <hr/>
+              <h2>A Recepção de calouros é a festa mais tradicional da Atlética.
+                    Acontece no inicio de cada período e tem como objetivo receber os novos alunos das engenharias do CEFET - Leopoldina.
+                    É uma oportunidade incrivel para fazer novas amizades, beber bastante e quem sabe até encontrar seu crush. Assim, a recepção de calouros é a melhor forma de começar o período.
+              </h2>
+            </div>
+          </div>
+
+          {/*Elementos à direita da tela*/}
+          <div className={styles.TelaDireita}>
+            <div className={styles.ImgFestas}>
+              <img src="https://i.ibb.co/kq4SwwT/Yuri-Ariane-Adeus-Calouros1.jpg" alt='Banda Calcolizando'></img>
+            </div>
+          </div>
+        </div>
 
       </section>
     )

@@ -5,7 +5,7 @@ function Modalidades() {
     return (
 
       /*Texto nossas modalidades*/
-      <section className={styles.Content}>
+      <section className={styles.Body}>
         <div className={styles.TextModalidades}>
           <h1>NOSSAS MODALIDADES</h1>
           <hr/>
@@ -77,13 +77,13 @@ function Modalidades() {
         {/*Alocação das fotos dos jogos*/}
         <div className={styles.DivisaoFotos}>
           <div className={styles.ColunaEsquerda}>
-              <img className={styles.ImgCampeonato} src="https://i.ibb.co/T0c0Pck/IMG-20231122-150512-1.png" alt="ImgCampeonato"></img>
+              <img className={styles.ImgCampeonato} src="https://i.ibb.co/f40hxB0/IMG-20231122-150512-1.jpg" alt="ImgCampeonato"></img>
           </div>
           <div className={styles.ColunaCentro}>
-              <img className={styles.ImgCampeonato} src="https://i.ibb.co/hCpdJFK/IMG-20231122-153016-1.png" alt="ImgCampeonato"></img>
+              <img className={styles.ImgCampeonato} src="https://i.ibb.co/P5RNW7z/IMG-20231122-150749.jpg" alt="ImgCampeonato"></img>
           </div>
           <div className={styles.ColunaDireita}>
-              <img className={styles.ImgCampeonato} src="https://i.ibb.co/9ckx9DB/IMG-20231122-150747-1.png" alt="ImgCampeonato"></img>
+              <img className={styles.ImgCampeonato} src="https://i.ibb.co/PFdMRQY/IMG-20231122-150735.jpg" alt="ImgCampeonato"></img>
           </div>                    
         </div>
       </section>
