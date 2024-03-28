@@ -83,5 +83,17 @@
 .textoRow{
     display:flex;
     flex-direction: row;
-    
+}
+
+@media (max-width: 768px) {
+    .textoRow {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    /* Aqui está o problema de ficar uma parte branca em baixo do rodapé em telas pequenas! */
+    .footer{
+        height: 100%;
+        padding: 2.5em;
+    }
 }

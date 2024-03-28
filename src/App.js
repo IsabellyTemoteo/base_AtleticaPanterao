@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import appStyle from './app.css';
+import Styles from './app.css';
 
 // Barra de Navegação e Rodapé
-import Navbar from './components/base/Navbar';
+//import Navbar from './components/base/Navbar';
+import Header from './components/base/navbar/index'
 import Footer from './components/base/Footer';
 
 // Páginas Importadas
@@ -25,40 +26,42 @@ import Container from './components/base/Container'
 // Definindo rotas para o site
 
 function App() {
+
   return (
-    
-      <Router>
 
-        <Navbar/>
+        <Router>
 
-        <Container customClass="min_height">
-          <Routes>
-              <Route path="/" element={<Home/>}/>
+          <Header/>
 
-              <Route path="/Gestao2023_2" element={<Gestao2023_2/>}/>
-              <Route path="/Documentos" element={<Documentos/>}/>
-              <Route path="/Galeria" element={<Galeria/>}/>
+          <Container customClass="min_height">
+            <Routes>
+                <Route path="/" element={<Home/>}/>
 
-              <Route path="/Competicoes" element={<Competicoes/>}/>
-              <Route path="/Modalidades" element={<Modalidades/>}/>
+                <Route path="/Gestao2023_2" element={<Gestao2023_2/>}/>
+                <Route path="/Documentos" element={<Documentos/>}/>
+                <Route path="/Galeria" element={<Galeria/>}/>
 
-              <Route path="/Eventos" element={<Eventos/>}/>
+                <Route path="/Competicoes" element={<Competicoes/>}/>
+                <Route path="/Modalidades" element={<Modalidades/>}/>
 
-              <Route path="/Lojinha" element={<Lojinha/>}/>
+                <Route path="/Eventos" element={<Eventos/>}/>
 
-              <Route path="/SejaUmParceiro" element={<SejaUmParceiro/>}/>
-              <Route path="/NossosParceiros" element={<NossosParceiros/>}/>
+                <Route path="/Lojinha" element={<Lojinha/>}/>
 
-              <Route path="/CampusAberto" element={<CampusAberto/>}/>
+                <Route path="/SejaUmParceiro" element={<SejaUmParceiro/>}/>
+                <Route path="/NossosParceiros" element={<NossosParceiros/>}/>
 
-              <Route path="/Contato" element={<Contato/>}/>
+                <Route path="/CampusAberto" element={<CampusAberto/>}/>
 
-          </Routes>
-        </Container>
+                <Route path="/Contato" element={<Contato/>}/>
 
-        <Footer/>
+            </Routes>
 
-      </Router>
+          </Container>
+
+          <Footer/>
+
+        </Router>
 
 // ========================================
 
